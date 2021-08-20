@@ -21,7 +21,7 @@ namespace space_web_test.StepDefinition
         {
             string introText = driver.FindElement(By.XPath("//div[@class='container']/p")).Text;
 
-            Assert.AreEqual("An example site for learning", introText);
+            Assert.AreEqual("An example site for learning1", introText);
         }
 
         [TearDown]
