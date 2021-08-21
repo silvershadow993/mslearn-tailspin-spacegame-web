@@ -12,9 +12,9 @@ namespace space_web_test.Utility
 {
     class Utility
     {
-        private IWebDriver driver;
+        private readonly IWebDriver driver;
 
-        public void utilityMethods() {
+        public void UtilityMethods() {
 
         }
     }
